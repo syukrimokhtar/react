@@ -1,8 +1,8 @@
-# This project using React Hooks and Typescript
-
-# used Components
-1. React i18nnext (https://www.i18next.com/)
-2. React Router Dom (https://reactrouter.com/)
+# Used Components
+1. React Hooks
+2. Typescript
+3. React i18nnext (https://www.i18next.com/)
+4. React Router Dom (https://reactrouter.com/)
 
 # Getting Started with Create React App
 

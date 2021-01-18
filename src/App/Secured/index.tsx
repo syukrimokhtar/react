@@ -1,14 +1,10 @@
-import { useHistory, withRouter } from 'react-router-dom';
+import { withRouter } from 'react-router-dom';
 
-function Secured() {
-
-    const history = useHistory();
-
+function Secured({history}:any) {
     const handleLogout = () => {
-       localStorage.setItem('auth', "0");
+       localStorage.removeItem('auth');
        history.push("/");
     }
-
     return <div>
         <h1>This is Secured Page</h1>
         <button onClick={ handleLogout }>Logout</button>
